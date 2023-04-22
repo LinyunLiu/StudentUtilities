@@ -1,0 +1,216 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/src/DSC0E0464.jpg");
+    background-color: black;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*TODO Animation background option*/
+    /*background: linear-gradient(90deg, #fc00ff, #00dbde, #ffdd00);*/
+    /*background-size: 200% 200%;*/
+    /*animation: gradient 10s ease infinite;*/
+    font-size: 24px;
+    font-family: "Avenir", serif;
+    color: antiquewhite;
+}
+/*@keyframes gradient {*/
+/*    0% {*/
+/*        background-position: 0 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0 50%;*/
+/*    }*/
+/*}*/
+p.title{
+    font-size: 36px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p.cpr{
+    margin-left: 540px;
+    color: white;
+    font-size: 16px;
+}
+p{
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+div.all{
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.item1{
+    width: 350px;
+    height: 400px;
+    background-color: #91919180;
+    /*TODO Use this code if you want to replace background with an image*/
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/src/DSC0E0464.jpeg");*/
+    /*background-repeat: repeat;*/
+    /*background-size: cover;*/
+    border: 2px solid antiquewhite;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+div.item2{
+    width: 350px;
+    height: 400px;
+    background-color: #91919180;
+    border: 2px solid antiquewhite;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+div.item3{
+    width: 350px;
+    height: 400px;
+    background-color: #91919180;
+    border: 2px solid antiquewhite;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+div.item4{
+    width: 350px;
+    height: 400px;
+    background-color: #91919180;
+    border: 2px solid antiquewhite;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+div.item5{
+    width: 350px;
+    height: 400px;
+    background-color: #91919180;
+    border: 2px solid antiquewhite;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+div.item6{
+    width: 350px;
+    height: 400px;
+    background-color: #91919180;
+    border: 2px solid antiquewhite;
+    padding: 20px 40px;
+    border-radius: 10px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+div.header{
+    width: 885px;
+    height: 40px;
+    background-color: #91919180;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    display: flex;
+}
+div.row1{
+    margin-bottom: 20px;
+    display: flex;
+}
+div.row2{
+    margin-bottom: 20px;
+    display: flex;
+}
+div.row3{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+div.item1:hover{
+    transform: scale(1.04);
+}
+div.item2:hover{
+    transform: scale(1.04);
+}
+div.item3:hover{
+    transform: scale(1.04);
+}
+div.item4:hover{
+    transform: scale(1.04);
+}
+div.item5:hover{
+    transform: scale(1.04);
+}
+div.item6:hover{
+    transform: scale(1.04);
+}
+button{
+    width: 348px;
+    height: 50px;
+    border: 2px solid antiquewhite;
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 18px;
+    background-color: transparent;
+    font-family: "Avenir", serif;
+    color: antiquewhite;
+    transition: background-color 0.3s ease;
+    margin-left: 0;
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+textarea{
+    font-family: "Avenir",serif;
+    font-size: 18px;
+    color: antiquewhite;
+    display: block;
+    background-color: transparent;
+    outline: antiquewhite;
+    border: 2px solid antiquewhite;
+    height: 280px;
+    width: 340px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 10px;
+    resize: none;
+    overflow: auto;
+    border-radius: 8px;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
+button.home{
+    width: 210px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+button.about{
+    width: 210px;
+    height: 30px;
+    margin: 5px 5px 5px 5px;
+    font-weight: bold;
+}
+button.theme{
+    width: 440px;
+    height: 30px;
+    margin: 5px 5px 5px 25px;
+    font-weight: bold;
+}
+

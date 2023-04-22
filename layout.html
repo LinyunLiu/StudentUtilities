@@ -3,14 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Utilities</title>
-    <link rel="stylesheet" href="style.css" id="link">
+    <link rel="stylesheet" href="/styles/style.css" id="link">
+    <script src="/scripts/script.js"></script>
 </head>
 <body>
     <div class="all">
         <p class="title">STUDENT INVENTORY</p>
+        <div class="header">
+            <button class="home">HOME</button>
+            <button class="about">ABOUT</button>
+            <button class="theme" onclick="changeTheme()" >THEME</button>
+        </div>
         <div class="row1">
             <div class="item1">
-                <p>&#9989 TODO LIST</p>
+                <p>&#128204 TO-DO LIST</p>
                 <label>
                     <textarea readonly id="textarea1">Description</textarea>
                 </label>
@@ -33,7 +39,7 @@
                 <button>START</button>
             </div>
             <div class="item4">
-                <p>AI TOOLS</p>
+                <p>A.I. TOOLS</p>
                 <label>
                     <textarea readonly id="textarea4">Description</textarea>
                 </label>
