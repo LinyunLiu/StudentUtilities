@@ -1,13 +1,28 @@
 body{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("/src/DSC0E0464.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("DSC0E0464.jpg");
     background-color: black;
     background-repeat: repeat;
     background-attachment: fixed;
     background-size: cover;
+    /*TODO Animation background option*/
+    /*background: linear-gradient(90deg, #fc00ff, #00dbde, #ffdd00);*/
+    /*background-size: 200% 200%;*/
+    /*animation: gradient 10s ease infinite;*/
     font-size: 24px;
     font-family: "Avenir", serif;
-    color: lightpink;
+    color: antiquewhite;
 }
+/*@keyframes gradient {*/
+/*    0% {*/
+/*        background-position: 0 50%;*/
+/*    }*/
+/*    50% {*/
+/*        background-position: 100% 50%;*/
+/*    }*/
+/*    100% {*/
+/*        background-position: 0 50%;*/
+/*    }*/
+/*}*/
 p.title{
     font-size: 36px;
     margin-bottom: 20px;
@@ -15,7 +30,7 @@ p.title{
 }
 p.cpr{
     margin-left: 540px;
-    color: lightpink;
+    color: white;
     font-size: 16px;
 }
 p{
@@ -36,7 +51,11 @@ div.item1{
     width: 350px;
     height: 400px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    /*TODO Use this code if you want to replace background with an image*/
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/src/DSC0E0464.jpeg");*/
+    /*background-repeat: repeat;*/
+    /*background-size: cover;*/
+    border: 2px solid antiquewhite;
     padding: 20px 40px;
     border-radius: 10px;
     margin-right: 20px;
@@ -47,7 +66,7 @@ div.item2{
     width: 350px;
     height: 400px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     padding: 20px 40px;
     border-radius: 10px;
     margin-right: 20px;
@@ -58,7 +77,7 @@ div.item3{
     width: 350px;
     height: 400px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     padding: 20px 40px;
     border-radius: 10px;
     margin-right: 20px;
@@ -69,7 +88,7 @@ div.item4{
     width: 350px;
     height: 400px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     padding: 20px 40px;
     border-radius: 10px;
     margin-right: 20px;
@@ -80,7 +99,7 @@ div.item5{
     width: 350px;
     height: 400px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     padding: 20px 40px;
     border-radius: 10px;
     margin-right: 20px;
@@ -91,7 +110,7 @@ div.item6{
     width: 350px;
     height: 400px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     padding: 20px 40px;
     border-radius: 10px;
     margin-right: 20px;
@@ -102,7 +121,7 @@ div.header{
     width: 885px;
     height: 40px;
     background-color: #91919180;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     border-radius: 10px;
     margin-bottom: 20px;
     margin-left: 0;
@@ -142,56 +161,95 @@ div.item6:hover{
 button{
     width: 348px;
     height: 50px;
-    border: 2px solid lightpink;
+    border: 2px solid antiquewhite;
     border-radius: 8px;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 24px;
     background-color: transparent;
     font-family: "Avenir", serif;
-    color: lightpink;
+    color: antiquewhite;
     transition: background-color 0.3s ease;
     margin-left: 0;
+    font-weight: bold;
 }
 button:hover{
-    background-color: lightpink;
+    background-color: antiquewhite;
     color: black;
 }
-textarea{
-    font-family: "Avenir",serif;
-    font-size: 18px;
-    color: lightpink;
-    display: block;
-    background-color: transparent;
-    outline: lightpink;
-    border: 2px solid lightpink;
-    height: 280px;
-    width: 340px;
-    margin-top: 0;
-    margin-left: 0;
-    margin-bottom: 10px;
-    resize: none;
-    overflow: auto;
-    border-radius: 8px;
-}
-textarea::-webkit-scrollbar{
-    display: none;
-}
+/*textarea{*/
+/*    font-family: "Avenir",serif;*/
+/*    font-size: 18px;*/
+/*    color: antiquewhite;*/
+/*    display: block;*/
+/*    background-color: transparent;*/
+/*    outline: antiquewhite;*/
+/*    border: 2px solid antiquewhite;*/
+/*    height: 280px;*/
+/*    width: 340px;*/
+/*    margin-top: 0;*/
+/*    margin-left: 0;*/
+/*    margin-bottom: 10px;*/
+/*    resize: none;*/
+/*    overflow: auto;*/
+/*    border-radius: 8px;*/
+/*}*/
+/*textarea::-webkit-scrollbar{*/
+/*    display: none;*/
+/*}*/
 button.home{
     width: 210px;
     height: 30px;
     margin: 5px 5px 5px 5px;
-    font-weight: bold;
+    font-size: 18px;
 }
 button.about{
     width: 210px;
     height: 30px;
     margin: 5px 5px 5px 5px;
-    font-weight: bold;
+    font-size: 18px;
 }
 button.theme{
     width: 440px;
     height: 30px;
     margin: 5px 5px 5px 25px;
-    font-weight: bold;
+    font-size: 18px;
+}
+img.image1{
+    width: 310px;
+    height: 280px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+img.image2{
+    width: 310px;
+    height: 280px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+img.image3{
+    width: 310px;
+    height: 280px;
+    margin-bottom: 0;
+    margin-left: 20px;
+}
+img.image4{
+    width: 300px;
+    height: 260px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+img.image5{
+    width: 300px;
+    height: 280px;
+    margin-bottom: 0;
+    margin-left: 25px;
+}
+img.image6{
+    width: 250px;
+    height: 240px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 45px;
 }
 

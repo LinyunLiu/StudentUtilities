@@ -1,0 +1,121 @@
+.frame{
+    width: 775px;
+    height: 685px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 2px solid antiquewhite;
+}
+.main{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.header{
+    background-color: #91919180;
+    width: 800px;
+    height: 50px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.calculator{
+    background-color: #91919180;
+    width: 800px;
+    height: 710px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin: 0;
+}
+.left{
+    margin-right: 50px;
+    height: 790px;
+}
+.right{
+    background-color: #91919180;
+    width: 400px;
+    height: 790px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin: 0;
+}
+p{
+    font-size: 36px;
+    color: antiquewhite;
+    font-family: "Avenir", serif;
+    margin-top: 3px;
+}
+p.link{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 0;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://images.hdqwalls.com/download/retro-island-8k-yn-3840x2160.jpg");
+    background-color: coral;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+img.image3{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+button{
+    width: 380px;
+    height: 50px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: transparent;
+    font-family: "Avenir", serif;
+    color: antiquewhite;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+
+}
+button:hover{
+    background-color: antiquewhite;
+    color: black;
+}
+img.wolfram{
+    width: 65%;
+    height: 5%;
+    margin-top: 10px;
+    margin-left: 75px;
+}
+img.desmos{
+    width: 50%;
+    height: 5%;
+    margin-top: 10px;
+    margin-left: 95px;
+    margin-bottom: 8px;
+}
+textarea{
+    font-family: "Avenir",serif;
+    font-size: 18px;
+    color: antiquewhite;
+    display: block;
+    background-color: transparent;
+    outline: none;
+    height: 224px;
+    width: 370px;
+    margin-left: 10px;
+    resize: none;
+    overflow: auto;
+    border: 2px solid antiquewhite;
+    border-radius: 8px;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}

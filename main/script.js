@@ -1,4 +1,4 @@
-let links = ["/styles/style.css","/styles/style2.css"]
+let links = ["/styles/style.css"]
 let count_links = 0
 let links_size = links.length-1
 function changeTheme(){
@@ -12,4 +12,8 @@ function changeTheme(){
         link.setAttribute('href', links[0]);
         count_links = 0
     }
+}
+
+function Calculator(){
+    window.open("../calculator/calculator.html");
 }

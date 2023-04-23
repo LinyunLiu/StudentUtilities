@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator.css" id="link">
+    <script src="calculator.js"></script>
+</head>
+<body onload="initialize()">
+    <div class="main">
+        <div class="left">
+            <div class="header">
+                <img src="../icons/function2.png" class="image3" alt="title">
+                <p class="title">SCIENTIFIC CALCULATOR</p>
+            </div>
+            <div class="calculator">
+                <embed src="https://www.desmos.com/scientific" class="frame">
+            </div>
+        </div>
+        <div class="right">
+            <p class="link">LINKS</p>
+            <img src="wolfram-alpha.png" alt="wolfram" class="wolfram">
+            <label>
+                <textarea readonly id="textarea1"></textarea>
+            </label>
+            <button onclick="goToWolfram()">GO &#128279;</button>
+            <img src="desmos2.png" alt="desmos" class="desmos">
+            <label>
+                <textarea readonly id="textarea2"></textarea>
+            </label>
+            <button onclick="goToDesmos()">GO &#128279;</button>
+        </div>
+    </div>
+</body>
+</html>
