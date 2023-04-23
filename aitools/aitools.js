@@ -10,3 +10,13 @@ function goToOpenAI(){
 function goToQuillBot(){
     window.open("https://quillbot.com/")
 }
+
+function addApiKey() {
+    let response = prompt("Enter API Key Here:")
+    if (response.toString().trim() !== "") {
+        alert(response.toString())
+    }
+}
+
+
+

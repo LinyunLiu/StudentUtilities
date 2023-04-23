@@ -17,3 +17,6 @@ function changeTheme(){
 function Calculator(){
     window.open("../calculator/calculator.html");
 }
+function AITools(){
+    window.open("../aitools/aitools.html");
+}

@@ -119,3 +119,7 @@ textarea{
 textarea::-webkit-scrollbar{
     display: none;
 }
+span{
+    color: greenyellow;
+}
+
