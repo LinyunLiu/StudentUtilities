@@ -14,12 +14,12 @@ body {
   height: 100vh;
 }
 
-.url-input,
-.convert-button {
+.url,
+.download-button {
   font-size: 1.3em;
   padding: 5px 10px;
 }
-.url-input {
+.url {
   border-radius: 4px 0px 0px 4px;
   width: 30em;
   text-align: left;
@@ -29,10 +29,10 @@ body {
   color: black;
 }
 
-.url-input:focus {
+.url:focus {
   border: 2px solid #0485ff;
 }
-.convert-button {
+.download-button {
   border-radius: 0px 4px 4px 0px;
   border: 2px solid #0485ff;
   background: #0485ff;
