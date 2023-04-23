@@ -1,0 +1,187 @@
+.main{
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+.header{
+    background-color: #91919180;
+    width: 800px;
+    height: 50px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+}
+.chat{
+    background-color: #91919180;
+    width: 800px;
+    height: 710px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin: 0;
+    display: inline-block;
+}
+.left{
+    margin-right: 50px;
+    height: 790px;
+}
+.right{
+    background-color: #91919180;
+    width: 400px;
+    height: 790px;
+    border: 2px solid antiquewhite;
+    border-radius: 10px;
+    margin: 0;
+}
+p{
+    font-size: 36px;
+    color: antiquewhite;
+    font-family: "Avenir", serif;
+    margin-top: 3px;
+}
+p.link{
+    margin-top: 10px;
+    margin-left: 150px;
+    margin-bottom: 180px;
+}
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://images.hdqwalls.com/download/retro-island-8k-yn-3840x2160.jpg");
+    background-color: coral;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
+}
+img.icon{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+button{
+    width: 380px;
+    height: 70px;
+    border: none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: transparent;
+    font-family: "Avenir", serif;
+    color: antiquewhite;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+button:hover{
+    background-color: #91919150;
+}
+img.tinywow{
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 0;
+}
+img.speech{
+    width: 60%;
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 8px;
+}
+img.openai{
+    width: 50%;
+    height: 60%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 8px;
+ }
+img.quillbot{
+    width: 50%;
+    height: 80%;
+    margin-top: 10px;
+    margin-left: 0;
+    margin-bottom: 8px;
+}
+textarea.content{
+    font-family: "Avenir",serif;
+    font-size: 18px;
+    color: antiquewhite;
+    background-color: transparent;
+    outline: antiquewhite;
+    border: 2px solid antiquewhite;
+    height: 600px;
+    width: 750px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    resize: none;
+    overflow: auto;
+    border-radius: 8px;
+    display: flex;
+}
+
+div.messageBar{
+    display: flex;
+}
+button.addApi{
+    width: 50px;
+    height: 50px;
+    border: 2px solid mediumspringgreen;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: transparent;
+    font-family: "Avenir", serif;
+    color: mediumspringgreen;
+    transition: background-color 0.3s ease;
+    margin-top: 0;
+    margin-left: 20px;
+}
+button.addApi:hover{
+    background-color: mediumspringgreen;
+    color: black
+}
+textarea.message{
+    font-family: "Avenir",serif;
+    font-size: 28px;
+    color: antiquewhite;
+    background-color: transparent;
+    outline: antiquewhite;
+    border: 2px solid deepskyblue;
+    height: 42px;
+    width: 500px;
+    resize: none;
+    overflow: auto;
+    border-radius: 8px;
+    display: flex;
+    margin-left: 10px;
+    margin-top: 0;
+}
+textarea::-webkit-scrollbar{
+    display: none;
+}
+button.send{
+    width: 180px;
+    height: 50px;
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 24px;
+    background-color: transparent;
+    font-family: "Avenir", serif;
+    color: hotpink;
+    transition: background-color 0.3s ease;
+    margin-top: 0;
+    margin-left: 10px;
+}
+button.send:hover{
+    background-color: hotpink;
+    color: black
+}
+

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>AI Tools</title>
+    <link rel="stylesheet" href="aitools.css" id="link">
+    <script src="server/index.js"></script>
+    <script src="aitools.js"></script>
+</head>
+<body>
+<div class="main">
+    <div class="left">
+        <div class="header">
+            <img src="../icons/cpu.png" class="icon" alt="title">
+            <p class="title">AI TOOLS</p>
+        </div>
+        <div class="chat">
+            <label>
+                <textarea disabled class="content">
+                </textarea>
+            </label>
+            <div class="messageBar">
+                <button class="addApi" onclick="addApiKey()">+</button>
+                <label>
+                    <textarea class="message">
+                    </textarea>
+                </label>
+                <button class="send">SEND</button>
+            </div>
+        </div>
+    </div>
+    <div class="right">
+        <p class="link">LINKS</p>
+        <button onclick="goToTiny()">
+            <img src="tinywow.png" alt="title" class="tinywow">
+        </button>
+        <button onclick="goToSpeech()">
+            <img src="speechify.png" alt="title" class="speech">
+        </button>
+        <button onclick="goToOpenAI()">
+            <img src="openai.png" alt="title" class="openai">
+        </button>
+        <button onclick="goToQuillBot()">
+            <img src="quillbot.png" alt="title" class="quillbot">
+        </button>
+    </div>
+</div>
+</body>
+</html>
