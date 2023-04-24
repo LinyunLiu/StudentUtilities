@@ -3,7 +3,12 @@
 }
 
 body {
-  background-color: #000080;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://images.hdqwalls.com/download/retro-island-8k-yn-3840x2160.jpg");
+  background-color: coral;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: auto;
 }
 
 .aesthetic-windows-xp-modal {

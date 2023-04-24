@@ -15,7 +15,12 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url("https://media.istockphoto.com/id/611618974/vector/cartoon-school-seamless-pattern.jpg?s=612x612&w=0&k=20&c=0OK0sFELk5QUiVEMj_1dd8ibcOPsPAn6MwdAFT_9WCw=");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://images.hdqwalls.com/download/retro-island-8k-yn-3840x2160.jpg");
+    background-color: coral;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: auto;
     color: var(--clr-black);
     font-family: "Poppins", sans-serif;
     font-size: 1.125rem;

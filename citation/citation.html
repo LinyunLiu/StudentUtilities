@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Citation</title>
+  <link rel="stylesheet" href="citation.css" id="link">
+  <script src="citation.js"></script>
+</head>
+<body onload="initialize()">
+<div class="main">
+  <div class="left">
+    <div class="header">
+      <img src="../icons/quotation.png" class="image" alt="title">
+      <p class="title">Citation</p>
+    </div>
+    <div class="calculator">
+      <embed src="https://bibify.org" class="frame">
+    </div>
+  </div>
+  <div class="right">
+    <p class="link">LINKS</p>
+    <img src="grammarly.png" alt="grammarly" class="grammarly">
+    <label>
+      <textarea readonly id="textarea1"></textarea>
+    </label>
+    <button onclick="goToGrammarly()">GO <span>&#8599;</span></button>
+    <img src="scribbr.png" alt="scribbr" class="scribbr">
+    <label>
+      <textarea readonly id="textarea2"></textarea>
+    </label>
+    <button onclick="goToScribbr()">GO <span>&#8599;</span></button>
+  </div>
+</div>
+</body>
+</html>

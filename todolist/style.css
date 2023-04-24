@@ -9,10 +9,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poltawski Nowy", serif;
+  font-family: "Avenir", serif;
+}
+img.image3 {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+p{
+  font-size: 36px;
+  color: antiquewhite;
+  font-family: "Avenir", serif;
+  margin-top: 3px;
+}
+div.header{
+  background-color: #91919180;
+  border: 2px solid antiquewhite;
+  border-radius: 10px;
+  margin: 20px;
+  display: flex;
+
+}
+div.all{
+  background-color: #91919180;
+  border: 2px solid antiquewhite;
+  border-radius: 10px;
+  margin: 20px;
+  text-align: center;
 }
 body {
-  background: #081c15;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://images.hdqwalls.com/download/retro-island-8k-yn-3840x2160.jpg");
+  background-color: coral;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  overflow: auto;
 }
 .wrapper {
   margin: 50px;

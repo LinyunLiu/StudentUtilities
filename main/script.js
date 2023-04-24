@@ -1,4 +1,4 @@
-let links = ["/styles/Converter.css"]
+let links = ["style.css"]
 let count_links = 0
 let links_size = links.length-1
 function changeTheme(){
@@ -23,4 +23,13 @@ function AITools(){
 
 function Converter(){
     window.open("../Converter/Converter.html");
+}
+function TodoList(){
+    window.open("../todolist/note.html");
+}
+function Downloader(){
+    window.open("../ytd/index.html");
+}
+function Citation(){
+    window.open("../citation/citation.html");
 }
