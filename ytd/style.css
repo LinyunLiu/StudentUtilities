@@ -31,13 +31,13 @@ body {
 input {
   width: 450px;
   margin-bottom: 20px;
-  padding-top: 0%;
+  padding-top: 0;
   height: 25px;
 }
 
 video {
   padding-top: 30px;
-  margin-bottom: 0%;
+  margin-bottom: 0;
   margin-left: 30%;
 }
 

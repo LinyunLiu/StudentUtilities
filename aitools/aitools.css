@@ -110,11 +110,11 @@ img.quillbot{
 }
 textarea.content{
     font-family: "Avenir",serif;
-    font-size: 18px;
+    font-size: 20px;
     color: antiquewhite;
     background-color: transparent;
     outline: antiquewhite;
-    border: 2px solid antiquewhite;
+    border: none;
     height: 600px;
     width: 750px;
     margin-top: 20px;

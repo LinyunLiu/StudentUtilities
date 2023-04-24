@@ -1,16 +1,14 @@
 <!-- aesthetic css from https://github.com/torch2424/aesthetic-css
 gif from giphy -->
-
-
 <!DOCTYPE html>
-<html>  
+<html lang="en">
   <head>
     <title>YouTube Downloader</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" type="text/css" href="aesthetic.css" />
+    <script src="script.js"></script>
   </head>
   <body>
-
     <div class="aesthetic-windows-xp-modal">
       <!-- Title Bar -->
       <div class="aesthetic-windows-xp-modal-title-bar">
@@ -33,21 +31,19 @@ gif from giphy -->
       <!-- Could be a tabbed container, or a set of dropdowns, etc... -->
       <div class="aesthetic-windows-xp-modal-content">
         <div class="input">
-
-          <input
-            class="aesthetic-windows-xp-text-input"
-            type="text"
-            placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
-          />
+          <label>
+            <input
+              class="aesthetic-windows-xp-text-input"
+              type="text"
+              id="url"
+              placeholder="https://www.youtube.com/watch?v=dQw4w9WgXcQ&pp=ygUXbmV2ZXIgZ29ubmEgZ2l2ZSB5b3UgdXA%3D"
+            />
+          </label>
           <div class="aesthetic-windows-xp-button">
-            <button>
-              OK
-            </button>
+            <button onclick="urlGET()">OK</button>
         </div>
-
-
       </div>
     </div>
+    </div>
   </body>
-  
 </html>
