@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>util</title>
+  <link rel="stylesheet" href="Converter.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+          href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap"
+          rel="stylesheet"
+  />
+</head>
+<body>
+<div id="uploadArea" class="upload-area">
+  <div class="upload-area__header">
+    <h1 class="upload-area__title">
+      Simple Converter
+    </h1>
+    <p class="upload-area__paragraph">
+      File should be a
+      <strong class="upload-area__tooltip">
+        document
+        <span class="upload-area__tooltip-data"></span>
+
+      </strong>
+    </p>
+  </div>
+  <!-- End Header -->
+  <!-- Work area -->
+  <div id="workArea" class="upload-area__work-area work-area">
+    <div class="select-converter">
+      <h3>Destination format:</h3>
+      <div class="grid">
+        <a href="#">TXT</a>
+        <a href="#">JPG</a>
+        <a href="#">PNG</a>
+        <a href="#">PDF</a>
+        <a href="#">doc</a>
+        <a href="#">docx</a>
+        <a href="#">xls</a>
+        <a href="#">TIFF</a>
+        <a href="#">WEBP</a>
+      </div>
+    </div>
+    <span class="work-area__icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" width="55"
+          >
+            <path
+                    fill="#271851"
+                    d="M256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM288.1 344.1C284.3 349.7 278.2 352 272 352s-12.28-2.344-16.97-7.031L216 305.9V408c0 13.25-10.75 24-24 24s-24-10.75-24-24V305.9l-39.03 39.03c-9.375 9.375-24.56 9.375-33.94 0s-9.375-24.56 0-33.94l80-80c9.375-9.375 24.56-9.375 33.94 0l80 80C298.3 320.4 298.3 335.6 288.1 344.1z"
+            />
+          </svg>
+        </span>
+    <p class="work-area__paragraph">
+      Drop your file here or Click to Select File
+    </p>
+    <span id="loadingText" class="work-area__loading-text"
+    >Please Wait</span
+    >
+    <div id="downloadPanel" class="work-area__download-panel">
+      <a id="resultDownload" href="#" class="img-wrapper">
+        <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 384 512"
+                width="55"
+        >
+          <path
+                  fill="#271851"
+                  d="M384 128h-128V0L384 128zM256 160H384v304c0 26.51-21.49 48-48 48h-288C21.49 512 0 490.5 0 464v-416C0 21.49 21.49 0 48 0H224l.0039 128C224 145.7 238.3 160 256 160zM255 295L216 334.1V232c0-13.25-10.75-24-24-24S168 218.8 168 232v102.1L128.1 295C124.3 290.3 118.2 288 112 288S99.72 290.3 95.03 295c-9.375 9.375-9.375 24.56 0 33.94l80 80c9.375 9.375 24.56 9.375 33.94 0l80-80c9.375-9.375 9.375-24.56 0-33.94S264.4 285.7 255 295z"
+          />
+        </svg>
+        <small id="resultFileName">sample.pdf</small>
+        <div class="btn">Download</div>
+        <p class="convert-again">or convert again</p>
+      </a>
+    </div>
+    <input type="file" id="fileInput" class="work-area__file-input" />
+  </div>
+</div>
+<script src="https://unpkg.com/convertapi-js/lib/convertapi.js"></script>
+<script src="Converter.js"></script>
+</body>
+</html>
