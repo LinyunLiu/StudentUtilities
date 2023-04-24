@@ -1,4 +1,4 @@
-let links = ["/styles/style.css"]
+let links = ["/styles/Converter.css"]
 let count_links = 0
 let links_size = links.length-1
 function changeTheme(){
@@ -19,4 +19,8 @@ function Calculator(){
 }
 function AITools(){
     window.open("../aitools/aitools.html");
+}
+
+function Converter(){
+    window.open("../Converter/Converter.html");
 }
